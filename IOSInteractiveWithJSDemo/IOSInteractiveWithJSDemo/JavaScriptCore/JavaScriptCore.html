@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JavaScriptCore</title>
+    <script>
+        // 弹出框
+        function showAlert(){
+            showMessage();
+        }
+        // OC 调用 JS 方法，并且传入参数
+        function ocCalljs(dict){
+            var name = dict['name'];
+            var age  = dict['age'];
+            alert(name + age);
+            // 传回去
+            showDict(dict)
+        }
+
+        // JS 操作对象
+        function testObject(){
+            alert(object.getSum(10,20));
+        }
+        
+        // 打开相册
+        function openAlbumImage(){
+            getImage();
+        }
+        // 显示图片
+        function showImage(imageDataStr){
+            var tz_img = document.getElementById("tz_image");
+            tz_img.innerHTML = "<image style='width:200px;' src='data:image/png;base64,"+imageDataStr+"'>";
+        }
+    
+    </script>
+</head>
+<body>
+    
+    <input id="submit" type="submit" value="JS 操作对象" onclick="testObject()"><br/>
+    <input type="button" value="弹框" onclick="showAlert()" /><br/>
+    <input type="button" value="打开相册" onclick="openAlbumImage()" /><br />
+    <div/>
+</body>
+</html>

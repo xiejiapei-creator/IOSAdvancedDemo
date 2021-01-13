@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>UIWebView</title>
+    <script>
+        function showAlert(messgae){
+            // 嵌套了一个函数
+            return function handle(){
+                alert('我是一个可爱的弹框，拿到了OC传来的消息： \n'+messgae);
+                return messgae + '传回给OC中的result';
+            }
+        }
+    </script>
+</head>
+<body>
+    <a href="tzedu:///JSCallOC:/hello word">点击跳转响应OC方法</a>
+    <script>
+        var sbmt = document.getElementById('sbmt');
+        sbmt.onclick = function(event) {
+            window.location.href = "tzedu:///JSCallOC:/hello word";
+        };
+    </script>
+</body>
+</html>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>WKWebView</title>
+    <script>
+        function interceptNavigation(){
+            alert('点击了拦截按钮，调用loadURL方法获得URL');
+            loadURL("lgedu://jsCallOC?username=谢佳培&password=123456");
+        }
+        function loadURL(url) {
+            var iFrame;
+            iFrame = document.createElement("iframe");
+            iFrame.setAttribute("src", url);
+            iFrame.setAttribute("style", "display:none;");
+            iFrame.setAttribute("height", "0px");
+            iFrame.setAttribute("width", "0px");
+            iFrame.setAttribute("frameborder", "0");
+            document.body.appendChild(iFrame);
+            iFrame.parentNode.removeChild(iFrame);
+            iFrame = null;
+        }
+        
+        function showAlert(messgae){
+            alert('我是一个可爱的弹框 \n'+messgae+'\n'+arr[1]);
+            return "token";
+        }
+    
+        function messgaeHandle(){
+            alert('给messageHandlers页面发送了“青春气息”');
+            window.webkit.messageHandlers.messgaeOC.postMessage("青春气息");
+        }
+    
+    
+    </script>
+</head>
+<body>
+
+    <input type="button" value="拦截导航" onclick="interceptNavigation()" /> <br />
+    <input type="button" value="messgaeHandle" onclick="messgaeHandle()" /><br />
+
+</body>
+</html>

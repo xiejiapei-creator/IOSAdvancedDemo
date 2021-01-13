@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>WebViewJavascriptBridge</title>
+    <script>
+         // JS调用OC
+         function click(){
+             // function(response)是个返回信息
+             WebViewJavascriptBridge.callHandler('jsCallsOC', {'谢佳培': '22'}, function(response) {
+                  alert(response);
+              })
+         }
+        // OC调用JS
+        setupWebViewJavascriptBridge(function(bridge) {
+         // ‘OCCallJSFunction’作为标识符，找到在JS中想要调用的方法
+            bridge.registerHandler('OCCallJSFunction', function(data, responseCallback) {
+                alert('JS方法被调用:'+data);
+                responseCallback('js执行过了');
+            })
+         })
+        // 创建一个不可见的iframe来加载初始化链接URL(https://_bridge_loaded_)
+        function setupWebViewJavascriptBridge(callback) {
+            if (window.WebViewJavascriptBridge) { return callback(WebViewJavascriptBridge); }
+            if (window.WVJBCallbacks) { return window.WVJBCallbacks.push(callback); }
+            window.WVJBCallbacks = [callback];
+            var WVJBIframe = document.createElement('iframe');
+            // display = 'none'创建一个不可见的iframe
+            WVJBIframe.style.display = 'none';
+            WVJBIframe.src = 'wvjbscheme://__BRIDGE_LOADED__';
+            document.documentElement.appendChild(WVJBIframe);
+            setTimeout(function() { document.documentElement.removeChild(WVJBIframe) }, 0)
+        }
+       
+    </script>
+</head>
+<body>
+
+    <input type="button" value="JS调用OC中方法" onclick="click()" /> <br />
+
+</body>
+</html>
