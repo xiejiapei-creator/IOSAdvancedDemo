@@ -1,0 +1,3 @@
+target '画板服务器' do
+	pod 'CocoaAsyncSocket' 
+end

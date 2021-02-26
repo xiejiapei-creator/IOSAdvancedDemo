@@ -1,0 +1,3 @@
+target '画板' do
+	pod 'CocoaAsyncSocket' 
+end

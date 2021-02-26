@@ -1,0 +1,5 @@
+target '粘包拆包' do
+
+pod 'CocoaAsyncSocket'
+
+end

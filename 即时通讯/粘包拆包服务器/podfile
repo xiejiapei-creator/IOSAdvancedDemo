@@ -1,0 +1,3 @@
+target '粘包拆包服务器' do
+	pod 'CocoaAsyncSocket' 
+end

@@ -1,0 +1,408 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E9ED599825E784820066757E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E9ED599725E784820066757E /* AppDelegate.m */; };
+		E9ED599B25E784820066757E /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E9ED599A25E784820066757E /* SceneDelegate.m */; };
+		E9ED599E25E784820066757E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E9ED599D25E784820066757E /* ViewController.m */; };
+		E9ED59A125E784820066757E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9ED599F25E784820066757E /* Main.storyboard */; };
+		E9ED59A325E784830066757E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9ED59A225E784830066757E /* Assets.xcassets */; };
+		E9ED59A625E784830066757E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9ED59A425E784830066757E /* LaunchScreen.storyboard */; };
+		E9ED59A925E784830066757E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E9ED59A825E784830066757E /* main.m */; };
+		EB3BD7FA16D9032A07082A48 /* libPods-GCDAsySocketDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A5C039BEC6C93C250E88409F /* libPods-GCDAsySocketDemo.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		68384DF15174A5D231881721 /* Pods-GCDAsySocketDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GCDAsySocketDemo.release.xcconfig"; path = "Target Support Files/Pods-GCDAsySocketDemo/Pods-GCDAsySocketDemo.release.xcconfig"; sourceTree = "<group>"; };
+		A54D426F2CA4C2A1B3EC571E /* Pods-GCDAsySocketDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GCDAsySocketDemo.debug.xcconfig"; path = "Target Support Files/Pods-GCDAsySocketDemo/Pods-GCDAsySocketDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		A5C039BEC6C93C250E88409F /* libPods-GCDAsySocketDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GCDAsySocketDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9ED599325E784820066757E /* GCDAsySocketDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GCDAsySocketDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9ED599625E784820066757E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E9ED599725E784820066757E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E9ED599925E784820066757E /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		E9ED599A25E784820066757E /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		E9ED599C25E784820066757E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E9ED599D25E784820066757E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E9ED59A025E784820066757E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E9ED59A225E784830066757E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E9ED59A525E784830066757E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E9ED59A725E784830066757E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E9ED59A825E784830066757E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E9ED599025E784820066757E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB3BD7FA16D9032A07082A48 /* libPods-GCDAsySocketDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1CA538D0AAAA7712A8FC1726 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A54D426F2CA4C2A1B3EC571E /* Pods-GCDAsySocketDemo.debug.xcconfig */,
+				68384DF15174A5D231881721 /* Pods-GCDAsySocketDemo.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E9ED598A25E784820066757E = {
+			isa = PBXGroup;
+			children = (
+				E9ED599525E784820066757E /* GCDAsySocketDemo */,
+				E9ED599425E784820066757E /* Products */,
+				1CA538D0AAAA7712A8FC1726 /* Pods */,
+				F40627B9474225FED1973E19 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E9ED599425E784820066757E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E9ED599325E784820066757E /* GCDAsySocketDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E9ED599525E784820066757E /* GCDAsySocketDemo */ = {
+			isa = PBXGroup;
+			children = (
+				E9ED599C25E784820066757E /* ViewController.h */,
+				E9ED599D25E784820066757E /* ViewController.m */,
+				E9ED59B025E784870066757E /* SupportingFiles */,
+				E9ED59A725E784830066757E /* Info.plist */,
+			);
+			path = GCDAsySocketDemo;
+			sourceTree = "<group>";
+		};
+		E9ED59B025E784870066757E /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				E9ED59A825E784830066757E /* main.m */,
+				E9ED599625E784820066757E /* AppDelegate.h */,
+				E9ED599725E784820066757E /* AppDelegate.m */,
+				E9ED599925E784820066757E /* SceneDelegate.h */,
+				E9ED599A25E784820066757E /* SceneDelegate.m */,
+				E9ED599F25E784820066757E /* Main.storyboard */,
+				E9ED59A225E784830066757E /* Assets.xcassets */,
+				E9ED59A425E784830066757E /* LaunchScreen.storyboard */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		F40627B9474225FED1973E19 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A5C039BEC6C93C250E88409F /* libPods-GCDAsySocketDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E9ED599225E784820066757E /* GCDAsySocketDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E9ED59AC25E784830066757E /* Build configuration list for PBXNativeTarget "GCDAsySocketDemo" */;
+			buildPhases = (
+				A156433642C418228E7706D0 /* [CP] Check Pods Manifest.lock */,
+				E9ED598F25E784820066757E /* Sources */,
+				E9ED599025E784820066757E /* Frameworks */,
+				E9ED599125E784820066757E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GCDAsySocketDemo;
+			productName = GCDAsySocketDemo;
+			productReference = E9ED599325E784820066757E /* GCDAsySocketDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E9ED598B25E784820066757E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					E9ED599225E784820066757E = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = E9ED598E25E784820066757E /* Build configuration list for PBXProject "GCDAsySocketDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E9ED598A25E784820066757E;
+			productRefGroup = E9ED599425E784820066757E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E9ED599225E784820066757E /* GCDAsySocketDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E9ED599125E784820066757E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9ED59A625E784830066757E /* LaunchScreen.storyboard in Resources */,
+				E9ED59A325E784830066757E /* Assets.xcassets in Resources */,
+				E9ED59A125E784820066757E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A156433642C418228E7706D0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GCDAsySocketDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E9ED598F25E784820066757E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9ED599E25E784820066757E /* ViewController.m in Sources */,
+				E9ED599825E784820066757E /* AppDelegate.m in Sources */,
+				E9ED59A925E784830066757E /* main.m in Sources */,
+				E9ED599B25E784820066757E /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E9ED599F25E784820066757E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E9ED59A025E784820066757E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E9ED59A425E784830066757E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E9ED59A525E784830066757E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E9ED59AA25E784830066757E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E9ED59AB25E784830066757E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E9ED59AD25E784830066757E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A54D426F2CA4C2A1B3EC571E /* Pods-GCDAsySocketDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GCDAsySocketDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.xiejiapei.Advanced.GCDAsySocketDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E9ED59AE25E784830066757E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 68384DF15174A5D231881721 /* Pods-GCDAsySocketDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = GCDAsySocketDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.xiejiapei.Advanced.GCDAsySocketDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E9ED598E25E784820066757E /* Build configuration list for PBXProject "GCDAsySocketDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9ED59AA25E784830066757E /* Debug */,
+				E9ED59AB25E784830066757E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E9ED59AC25E784830066757E /* Build configuration list for PBXNativeTarget "GCDAsySocketDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9ED59AD25E784830066757E /* Debug */,
+				E9ED59AE25E784830066757E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E9ED598B25E784820066757E /* Project object */;
+}

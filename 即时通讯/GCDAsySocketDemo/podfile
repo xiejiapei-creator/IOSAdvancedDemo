@@ -1,0 +1,5 @@
+target 'GCDAsySocketDemo' do
+
+pod 'CocoaAsyncSocket'
+
+end
